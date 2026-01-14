@@ -1,0 +1,121 @@
+[general]
+version = 4
+name = Creality Ender 3 V2 - Standard
+definition = creality_ender3
+
+[metadata]
+type = quality_changes
+quality_type = standard
+setting_version = 22
+
+[values]
+; Layer Settings
+layer_height = 0.2
+layer_height_0 = 0.28
+line_width = 0.4
+wall_line_width = 0.4
+infill_line_width = 0.4
+
+; Shell
+wall_thickness = 1.2
+wall_line_count = 3
+top_layers = 4
+bottom_layers = 4
+top_bottom_thickness = 0.8
+optimize_wall_printing_order = True
+outer_inset_first = False
+alternate_extra_perimeter = False
+fill_outline_gaps = True
+filter_out_tiny_gaps = True
+
+; Infill
+infill_sparse_density = 20
+infill_pattern = cubic
+infill_overlap = 30
+skin_overlap = 10
+infill_wipe_dist = 0.1
+gradual_infill_steps = 0
+infill_before_walls = False
+connect_infill_polygons = True
+
+; Material
+material_print_temperature = 200
+material_print_temperature_layer_0 = 205
+material_bed_temperature = 60
+material_bed_temperature_layer_0 = 65
+material_flow = 100
+retraction_enable = True
+retraction_amount = 5
+retraction_speed = 45
+retraction_prime_speed = 45
+retraction_hop_enabled = False
+retraction_hop = 0.2
+retraction_combing = all
+retraction_combing_max_distance = 30
+retraction_min_travel = 1.5
+retraction_count_max = 100
+retraction_extrusion_window = 10
+
+; Speed
+speed_print = 50
+speed_infill = 50
+speed_wall = 40
+speed_wall_0 = 30
+speed_wall_x = 45
+speed_topbottom = 30
+speed_travel = 150
+speed_layer_0 = 20
+speed_travel_layer_0 = 100
+skirt_brim_speed = 25
+acceleration_enabled = True
+acceleration_print = 500
+acceleration_travel = 1000
+acceleration_layer_0 = 500
+jerk_enabled = True
+jerk_print = 8
+jerk_travel = 10
+jerk_layer_0 = 8
+
+; Cooling
+cool_fan_enabled = True
+cool_fan_speed = 100
+cool_fan_speed_min = 100
+cool_fan_full_at_height = 0.6
+cool_fan_full_layer = 2
+cool_min_layer_time = 10
+cool_min_speed = 10
+cool_lift_head = False
+
+; Support
+support_enable = False
+support_type = everywhere
+support_angle = 50
+support_pattern = zigzag
+support_infill_rate = 15
+support_z_distance = 0.2
+support_xy_distance = 0.7
+support_interface_enable = True
+support_interface_density = 33.333
+support_interface_height = 0.8
+support_brim_enable = True
+
+; Build Plate Adhesion
+adhesion_type = skirt
+skirt_line_count = 3
+skirt_gap = 3
+skirt_brim_minimal_length = 250
+brim_width = 8
+brim_line_count = 20
+raft_margin = 5
+raft_airgap = 0.3
+
+; Mesh Fixes
+meshfix_union_all = True
+meshfix_union_all_remove_holes = False
+meshfix_extensive_stitching = False
+meshfix_keep_open_polygons = False
+
+; Special Modes
+print_sequence = all_at_once
+magic_spiralize = False
+magic_fuzzy_skin_enabled = False
