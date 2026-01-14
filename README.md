@@ -70,6 +70,7 @@ Networking     Enterprise Network Architecture, VPN, Firewall
 - [Post-Quantum Cryptography: A Practical Guide](docs/post-quantum-cryptography-guide.md) - Comprehensive PQC migration guide covering NIST standards, hybrid cryptography, and implementation strategies
 - [CMMC 2.0 Compliance Guide](docs/cmmc-compliance-guide.md) - Complete CMMC compliance roadmap covering all 14 domains, assessment process, and implementation strategies
 - [Network Hardening Guide](docs/network-hardening-guide.md) - Comprehensive network security guide covering firewalls, VPNs, wireless, segmentation, and monitoring
+- [3D Printing Configs](3d-printing/README.md) - Creality printer profiles, G-code macros, calibration guides, and troubleshooting for Ender 3, K1, and more
 
 ---
 
