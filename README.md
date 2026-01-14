@@ -65,6 +65,12 @@ Networking     Enterprise Network Architecture, VPN, Firewall
 
 ---
 
+### Documentation & Guides
+
+- [Post-Quantum Cryptography: A Practical Guide](docs/post-quantum-cryptography-guide.md) - Comprehensive PQC migration guide covering NIST standards, hybrid cryptography, and implementation strategies
+
+---
+
 ### Connect
 
 - **Role:** CTO @ QUX Technologies
